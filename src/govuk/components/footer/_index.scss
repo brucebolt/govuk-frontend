@@ -174,7 +174,7 @@
   @include govuk-media-query ($from: tablet) {
     .govuk-footer__section--columns-2,
     .govuk-footer__section--span-2 {
-      flex-grow: 2;
+      flex-grow: 0;
       width: (2 * 100% / 3);
     }
 
@@ -184,7 +184,7 @@
 
     .govuk-footer__section--columns-3,
     .govuk-footer__section--span-3 {
-      flex-grow: 3;
+      flex-grow: 0;
       width: 100%;
     }
 
