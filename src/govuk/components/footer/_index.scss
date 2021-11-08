@@ -172,6 +172,9 @@
   }
 
   @include govuk-media-query ($from: tablet) {
+    // NOTE: this code assumes that if you have a 2 column or three column
+    // section you want an odd number of columns per row in total. Is this
+    // assumption valid?
     .govuk-footer__section--columns-2,
     .govuk-footer__section--span-2 {
       flex-grow: 0;
