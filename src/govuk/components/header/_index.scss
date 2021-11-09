@@ -205,8 +205,7 @@
     }
   }
 
-  .govuk-header__navigation {
-    @include govuk-responsive-margin(2, "bottom");
+  .govuk-header__navigation-list {
     display: block;
     margin: 0;
     padding: 0;
